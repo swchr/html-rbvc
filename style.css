@@ -1,0 +1,276 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+/*
+      MAIN COLOR: #087f5b;
+      GREY COLOR: #343a40;
+      */
+
+body {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic img {
+  width: 17px;
+}
+
+.container {
+  width: 300px;
+  height: 650px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #450a0a;
+  padding: 0 16px;
+  position: relative;
+}
+
+.img-one {
+  width: 100%;
+  padding-top: 130px;
+  margin-bottom: 12px;
+}
+
+.img-two {
+  width: 100%;
+  padding-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.btn:link,
+.btn:visited {
+  position: absolute;
+  left: 50%;
+  top: 82%;
+  transform: translate(-50%, 0);
+  background-color: #fbbf24;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #9a3412;
+  transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #9a3412;
+  color: #fff;
+}
+
+/* SIGN HTML PAGE */
+.btn-outline:link,
+.btn-outline:visited {
+  position: absolute;
+  top: 63%;
+  padding: 16px 32px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #fdba74;
+  color: #450a0a;
+  border: none;
+}
+
+.btn-white:link,
+.btn-white:link {
+  position: absolute;
+  top: 73%;
+  padding: 16px 32px;
+}
+
+.group-icons {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%);
+
+  display: flex;
+  gap: 12px;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.im {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 24px;
+  background-color: #fff;
+}
+
+.arrow {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 10%;
+}
+
+.small {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 8px;
+}
+
+/* REGISTRATION PAGE */
+.img-three {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.account {
+  position: absolute;
+  top: 34%;
+}
+
+.account p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.create {
+  margin-bottom: 32px;
+  font-size: 20px;
+  position: absolute;
+  top: 26%;
+}
+
+input {
+  width: 140%;
+  height: 32px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 0 9px 9px;
+  padding: 0 8px;
+  background: ;
+}
+
+.btn.btn-register {
+  border-radius: 9px;
+  display: inline-block;
+  position: absolute;
+  top: 83%;
+}
+
+.alt-account {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 12px;
+}
+
+.alt-account a {
+  text-decoration: none;
+  color: #fbbf24;
+}
+
+/* WELCOME BACK */
+
+.create-two {
+  position: absolute;
+  top: 35%;
+  font-size: 18px;
+}
+
+.img-four {
+  width: 50%;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.account-two {
+  position: absolute;
+  top: 45%;
+}
+
+.account-two p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.btn.btn-signin {
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  margin-top: 32px;
+}
+
+.switch-account {
+  position: absolute;
+  font-size: 11px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  display: inline-block;
+}
+
+.switch-account a {
+  text-decoration: none;
+  color: #fbbf24;
+}
+
+.forget-password {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 11px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fbbf24;
+}
